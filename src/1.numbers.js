@@ -15,7 +15,7 @@ function multiply(num1, num2) {
 
 //parseInt: should use parseInt correctly to convert strings to integer numbers
 function parseInt (str) {
-  return Number(str);
+  return Number(parseFloat(str).toFixed(0));
 }
 
 //addAndReturn2DecimalPlaces: should return a number value, rounded to 2 decimal places
