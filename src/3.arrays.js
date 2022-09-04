@@ -6,7 +6,7 @@
  * indexoff(arr, 3); should return the index 2
  */
 function indexOf(arr, item) {
-  let index = 0;
+  let index = -1;
   for (let i = 0; i < arr.length; i++){
     if (arr[i] == item){
       index = i;
