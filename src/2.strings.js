@@ -9,10 +9,14 @@ function reverseString(str) {
    * 
    * Can even be done on one line
    */
-  const strArray = str.split("");
+  /** 
+   *  const strArray = str.split("");
   const reverseArray = strArray.reverse();
   const joinArray = reverseArray.join('');
-  return joinArray;
+  */
+
+
+  return str.split("").reverse().join('');
 }
 
 //capitalize: should return the input in all-caps
