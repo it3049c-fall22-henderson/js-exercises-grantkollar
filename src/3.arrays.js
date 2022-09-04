@@ -6,7 +6,17 @@
  * indexoff(arr, 3); should return the index 2
  */
 function indexOf(arr, item) {
-  return ;
+  let index = 0;
+  for (let i = 0; i < arr.length; i++){
+    if (arr[i] == item){
+      index = i;
+      break;
+    }
+    else{
+      continue;
+    }
+  }
+  return index;
 }
 
 // Sum: you should be able to sum the items of an array
